@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +7,8 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;    
+    right: 0;
+    font-family: 'roboto', monospace;    
 }
 
 a{
@@ -26,7 +29,6 @@ header .header-icons-container {
     height: 50px;
     display: grid;
     background-color: #47cfac;
-
 }
 
 header .header-icons-container .icons{
@@ -95,4 +97,19 @@ nav .profile-link a{
     letter-spacing: 10px;
     color: white;
     text-align: center;
+    font-family: 'roboto mono', monospace;
 }
+
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
