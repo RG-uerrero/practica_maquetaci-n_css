@@ -1,3 +1,12 @@
+:root {
+    --grey: #B4BEC9;
+    --blue-green: #159A9C;
+    --black-blue: #002333;
+    --green-white: #DEEFE7;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 @media(max-width: 900px) {
     .blogs-main-new {
         grid-template-columns: 1fr;
@@ -40,6 +49,27 @@
 }
 
 @media (max-width:600px) {
+    .header__icons{
+        width: 350px;
+    }
+
+    .btn__biografia{
+        color: var(--white);
+        border: 1px solid var(--white);
+    }
+
+    .btn__uno{
+        display: block;
+    }
+
+    .btn__dos{
+        display: none;
+    }
+
+    .main__section img {
+        width: 200px;
+    }
+
     .post__container {
         width: 410px;
         max-width: 95%;
