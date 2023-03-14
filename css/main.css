@@ -209,59 +209,29 @@ nav {
     width: 100%;
 }
 
-/*--------------- contacto ---------------*/
+/*--------------- Blogpost ---------------*/
 
-.blogpost-img-container {
+.blogpost__img {
+    background: var(--grey);
     padding: 0 50px 40px;
 }
 
-.blogpost-img-container img {
+.blogpost__img img {
+    margin-top: 20px;
     width: 100%;
 }
 
-.blogpost-main-container {
+.blogpost__article {
     padding: 0 50px 40px;
 }
 
-.blogpost-main-container h3 {
+.blogpost__article h3 {
     border-bottom: 1px solid var(--grey);
     padding-bottom: 20px;
 }
 
-.blogpost-main-container div h1 {
+.blogpost__article div h1 {
     font-size: 35px;
-}
-
-.contact-main-container {
-    display: flex;
-    background-color: var(--grey);
-    justify-content: center;
-    height: 300px;
-}
-
-.contact-main-container section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 500px;
-    align-self: center;
-}
-
-.contact-main-container section img {
-    width: 100px;
-}
-
-.contact-left {
-    justify-items: center;
-}
-
-.contact-right {
-    justify-items: center;
-    margin-left: 80px;
-}
-
-.btn-contact {
-    color: var(--black);
-    border-bottom: 1px solid var(--black);
 }
 
 /*--------------- perfil ---------------*/
@@ -299,6 +269,49 @@ nav {
 
 .proyect-container {
     padding: 0 5px;
+}
+
+/*--------------- Contact ---------------*/
+
+.contact__container {
+    display: flex;
+    background-color: var(--grey);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.contact__container section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 500px;
+    align-self: center;
+}
+
+.contact__container img {
+    width: 100px;
+    margin: 0 20px;
+}
+
+.contact__left {
+    justify-items: center;
+    margin: 0 20px;
+}
+
+.contact__right {
+    justify-items: center;
+    margin: 0 20px;
+}
+
+.contact__container section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn__contact {
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
 }
 
 /*--------------- Footer ---------------*/
