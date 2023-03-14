@@ -79,6 +79,20 @@
         max-width: 95%;
     }
 
+    .profile__main img {
+        width: 100%;
+        margin-right: 30px;
+        border-radius: 25px;
+    }
+
+    .profile__container {
+        flex-direction: column;
+    }
+
+    .proyects__main{
+        grid-template-columns: 1fr;
+    }
+
     .contact__container {
         display: flex;
         background-color: var(--grey);
@@ -110,4 +124,6 @@
         display: flex;
         height: auto;
     }
+
+
 }
